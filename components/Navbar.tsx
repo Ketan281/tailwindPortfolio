@@ -1,6 +1,6 @@
 "use client" // this is a client component
 import React from "react"
-import { useState } from "react"
+import { useState,useEffect } from "react"
 import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
@@ -29,10 +29,18 @@ const NAV_ITEMS: Array<NavItem> = [
 ]
 
 export default function Navbar() {
-  const { systemTheme, theme, setTheme } = useTheme()
-  const currentTheme = theme === "system" ? systemTheme : theme
-  const pathname = usePathname()
-  const [navbar, setNavbar] = useState(false)
+    const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+  const pathname = usePathname();
+  const [navbar, setNavbar] = useState(false);
+
+  useEffect(() => {
+    // Set the default theme to "dark" if current theme is "system"
+    if (currentTheme === "system") {
+      setTheme("dark");
+    }
+  }, []); // Empty dependency array ensures the effect runs only once on mount
+
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">

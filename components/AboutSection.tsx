@@ -6,13 +6,15 @@ const skills = [
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
+  { skill: "Python" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
+  { skill: "antd" },
+  { skill: "Chart.js" },
 ]
 
 const AboutSection = () => {
@@ -30,16 +32,16 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Ketan and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Pune, Maharashtra.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
+              I graduated from Savitribai Phule University, pune in 2022
+              with a MCA in Computer Science and have been working in the
               field ever since.
             </p>
             <br />
