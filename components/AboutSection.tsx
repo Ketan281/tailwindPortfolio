@@ -41,7 +41,7 @@ const AboutSection = () => {
             <br />
             <p>
               I graduated from Savitribai Phule University, pune in 2022
-              with a MCA in Computer Science and have been working in the
+              with a Masters of Computer Applications(MCA) and have been working in the
               field ever since.
             </p>
             <br />
