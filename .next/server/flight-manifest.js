@@ -1,31 +1,5 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./app/layout.tsx": {
-      "": {
-        "id": "(sc_client)/./app/layout.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/layout.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/layout.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/HeroSection.tsx": {
       "": {
         "id": "(sc_client)/./components/HeroSection.tsx",
@@ -126,6 +100,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/layout.tsx": {
+      "": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -240,41 +240,6 @@ self.__RSC_MANIFEST={
     "/home/ketan/Desktop/tailwindportfolio/tailwindPortfolio/app/layout": [
       "static/css/app/layout.css"
     ]
-  },
-  "/home/ketan/Desktop/tailwindportfolio/tailwindPortfolio/styles/globals.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    }
-  },
-  "/home/ketan/Desktop/tailwindportfolio/tailwindPortfolio/app/layout.tsx": {
-    "": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
   },
   "/home/ketan/Desktop/tailwindportfolio/tailwindPortfolio/components/HeroSection.tsx": {
     "": {
@@ -428,6 +393,41 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/ketan/Desktop/tailwindportfolio/tailwindPortfolio/styles/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/home/ketan/Desktop/tailwindportfolio/tailwindPortfolio/app/layout.tsx": {
+    "": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
       ],
       "async": false
     }
