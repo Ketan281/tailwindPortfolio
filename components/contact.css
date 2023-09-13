@@ -12,7 +12,7 @@
   }
   :root {
     --primary: #5e3bee;
-    --heading-color: hsl(236, 58%, 43%);
+    --heading-color: teal;
     --bg-shade: #553acf;
     --github: #e62872;
     --darkblue: #1c1e53;
