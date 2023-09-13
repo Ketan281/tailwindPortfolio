@@ -3,15 +3,22 @@ import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
-
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 const HeroSection = () => {
   const handleDownloadClick = () => {
     const link = document.createElement("a");
-    link.href = "/ketanCV.pdf"; // Use the correct path
+    link.href = "/Ketan-Mohite-Resume.pdf"; // Use the correct path
     link.target = "_blank";
-    link.download = "Ketan_Resume.pdf";
+    link.download = "Ketan-Mohite-Resume.pdf";
     link.click();
   };
+  const [text] = useTypewriter({
+    words: ["Professional Coder", "Full Stack Developer", "UI Developer"],
+    loop: true,
+    typeSpeed: 50,
+    deleteSpeed: 60,
+    delaySpeed: 1500,
+  });
 
   return (
     <section id="home">
@@ -29,9 +36,15 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Ketan!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
-            </span>
+            {/* <h2 className="text-4xl font-bold text-white"> */}
+          <span className="font-semibold text-teal-600">{text}</span>
+          <Cursor
+            // cursorBlinking="false"
+            cursorStyle="|"
+            cursorColor="#ff014f"
+          />
+        {/* </h2> */}
+            
             based in Pune,Maharashtra. Working towards creating software that
             makes life easier and more meaningful.
           </p>

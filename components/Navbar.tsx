@@ -2,7 +2,6 @@
 import React from "react"
 import { useState,useEffect } from "react"
 import { Link } from "react-scroll/modules"
-import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
@@ -25,21 +24,23 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
-
+  {
+    label: "Contact",
+    page: "contact",
+  },
 ]
 
 export default function Navbar() {
-    const { systemTheme, theme, setTheme } = useTheme();
+  const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
-  const pathname = usePathname();
+  
   const [navbar, setNavbar] = useState(false);
 
   useEffect(() => {
     // Set the default theme to "dark" if current theme is "system"
-    if (currentTheme === "system") {
-      setTheme("dark");
-    }
+      setTheme("dark"); 
   }, []); // Empty dependency array ensures the effect runs only once on mount
+
 
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
@@ -100,7 +101,7 @@ export default function Navbar() {
                   onClick={() => setTheme("dark")}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
-                  <RiMoonFill size={25} />
+                  <RiMoonFill size={25} color="black" />
                 </button>
               )}
             </div>

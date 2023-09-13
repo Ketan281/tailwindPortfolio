@@ -9,10 +9,11 @@ const skills = [
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
-  { skill: "Python" },
+  { skill: "Node JS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "MongoDB" },
+  { skill: "Express.js" },
   { skill: "antd" },
   { skill: "Chart.js" },
 ]

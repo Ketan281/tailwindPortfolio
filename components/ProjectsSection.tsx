@@ -8,14 +8,14 @@ const projects = [
   {
     name: "Meesho Clone",
     description:
-      "Meesho is a online E-commerce platform for cloths,jwellery etc.",
+      "Meesho is a online E-commerce platform for cloths,jwellery etc. Tech stack used:-React.js | Material-UI | Redux | Module CSS",
     image: "/meesho.png",
     github: "https://github.com/Ketan281/meesho",
     link: "https://meeshocloneketan.netlify.app/",
   },
   {
     name: "AirBnb Clone",
-    description: "Airbnb is an online marketplace that allows people to rent out their properties or spare rooms to travelers.",
+    description: "Airbnb is an online marketplace that allows people to rent out their properties or spare rooms to travelers. Tech stack used:-  React.js | Material-UI | Redux | Module CSS",
     image: "/airbnb.png",
     github: "https://github.com/MuskanIss/ConstructWeek_Adventure",
     link: "https://air-bnb-ea4ed.web.app/",

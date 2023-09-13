@@ -9,7 +9,6 @@ interface Props {
 
 export default function SlideUp({ children, offset = "0px" }: Props) {
   const ref = useRef(null)
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
