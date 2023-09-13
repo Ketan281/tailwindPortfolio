@@ -3,7 +3,7 @@ const ContactSection = ()=> {
     return (
       <section id="contact" className="contact--section">
         <div>
-          <p className="sub--title">Get In Touch</p>
+          {/* <p className="sub--title">Get In Touch</p> */}
           <h1 className="text-center font-bold text-4xl">
           Contact Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -78,7 +78,7 @@ const ContactSection = ()=> {
             <span className="text-sm">I accept the terms</span>
           </label> */}
           <div>
-            <button className="btn btn-primary contact--form--btn">Submit</button>
+            <button className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer">Submit</button>
           </div>
         </form>
       </section>
