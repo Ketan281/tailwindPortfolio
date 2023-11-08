@@ -237,14 +237,14 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\app\\layout": [
+    "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\app\\page": [
+    "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\app\\page": [
       "static/css/_app-client_components_contact_css.css"
     ]
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\components\\HeroSection.tsx": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\components\\HeroSection.tsx": {
     "": {
       "id": "(app-client)/./components/HeroSection.tsx",
       "name": "",
@@ -270,7 +270,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\components\\SlideUp.tsx": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\components\\SlideUp.tsx": {
     "": {
       "id": "(app-client)/./components/SlideUp.tsx",
       "name": "",
@@ -296,7 +296,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\image.js": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\image.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
@@ -322,7 +322,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\link.js": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\link.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
@@ -348,7 +348,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\styles\\globals.css": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\styles\\globals.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -357,7 +357,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\app\\layout.tsx": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\app\\layout.tsx": {
     "": {
       "id": "(app-client)/./app/layout.tsx",
       "name": "",
@@ -383,7 +383,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -409,7 +409,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -435,7 +435,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -461,7 +461,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -487,7 +487,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\pratu\\OneDrive\\Desktop\\interview\\portfolio\\tailwindPortfolio\\components\\contact.css": {
+  "C:\\Users\\Maheh jadhav\\Desktop\\portfolio\\tailwindPortfolio\\components\\contact.css": {
     "default": {
       "id": "null",
       "name": "default",

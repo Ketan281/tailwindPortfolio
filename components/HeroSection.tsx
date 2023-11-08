@@ -11,6 +11,7 @@ const HeroSection = () => {
     link.target = "_blank";
     link.download = "Ketan-Mohite-Resume.pdf";
     link.click();
+    window.open(link.href, "_blank");
   };
   const [text] = useTypewriter({
     words: ["Professional Coder", "Full Stack Developer", "UI Developer"],
